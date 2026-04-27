@@ -512,15 +512,15 @@ cron.schedule("0 8 * * 1-5", () => {
     timezone: "America/Chicago"
 });
 
-const chicagoNow = new Date().toLocaleString("en-US", {
-    timeZone: "America/Chicago"
-});
+//const chicagoNow = new Date().toLocaleString("en-US", {
+  // timeZone: "America/Chicago"
+//});
 
-const chicagoDay = new Date(chicagoNow).getDay();
+//const chicagoDay = new Date(chicagoNow).getDay();
 
-if (chicagoDay >= 1 && chicagoDay <= 5) {
-    startNewMarketDayAutomatically();
-}
+//if (chicagoDay >= 1 && chicagoDay <= 5) {
+   // startNewMarketDayAutomatically();
+//}
 
 app.listen(PORT, () => {
     console.log(`CattleLine running on http://localhost:${PORT}`);
