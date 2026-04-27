@@ -1,0 +1,38 @@
+{
+  "marketDate": "April 26, 2026",
+  "lastUpdateType": "close",
+  "contracts": {
+    "live_apr26": {
+      "name": "April 2026",
+      "type": "live",
+      "open": 248.3,
+      "current": 248.3,
+      "close": 248.3,
+      "menuOrder": 1
+    },
+    "live_apr27": {
+      "name": "April 2027",
+      "type": "live",
+      "open": 236.225,
+      "current": 236.225,
+      "close": 236.225,
+      "menuOrder": 2
+    },
+    "feeder_apr26": {
+      "name": "April 2026",
+      "type": "feeder",
+      "open": 367.625,
+      "current": 367.625,
+      "close": 367.625,
+      "menuOrder": 1
+    },
+    "feeder_april_2027": {
+      "name": "April 2027",
+      "type": "feeder",
+      "open": 342.15,
+      "current": 342.15,
+      "close": 342.15,
+      "menuOrder": 2
+    }
+  }
+}
