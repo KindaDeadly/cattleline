@@ -8,7 +8,7 @@ const cron = require("node-cron");
 const PORT = process.env.PORT || 3000;
 const VoiceResponse = twilio.twiml.VoiceResponse;
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const DATA_FILE = path.join(__dirname, "prices.json");
 
 app.use(bodyParser.urlencoded({ extended: false }));
