@@ -5,7 +5,7 @@ const path = require("path");
 const twilio = require("twilio");
 const cron = require("node-cron");
 
-const PORT = process.env.PORT || 3000;
+const app = express();
 const VoiceResponse = twilio.twiml.VoiceResponse;
 
 const PORT = process.env.PORT || 3000;
